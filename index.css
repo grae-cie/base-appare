@@ -1,0 +1,136 @@
+body{
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  background-image:url(./bg-pattern-desktop.svg);
+}
+
+h1{
+ text-transform:uppercase;
+ font-weight: 600;
+ font-size: 60px;
+ padding-bottom: 0px;
+ letter-spacing: 4.5px;
+ margin: 0px;
+ margin-bottom: 20px;
+ color: hsl(0, 6%, 24%);
+}
+
+p{
+  line-height: 32px;
+  margin: 0px;
+  margin-bottom: 30px;
+  color: hsl(0, 36%, 70%);
+  width:430px
+}
+
+input{
+  padding: 10px 190px 10px 22px;
+  margin: 0px;
+  border-radius: 20px;
+  border: solid;
+  border-color:  hsl(0, 36%, 70%);
+  border-width: 1px;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: brown;
+}
+
+.logo{
+  margin-left: 134px;
+  padding-top: 60px;
+  margin-top: 0px;
+}
+ 
+.desktop-image{
+  position: absolute;
+  padding-left: 470px;
+  margin-top: -10px;
+  padding-top: 0px;
+  width:580px;
+  height: 700px;
+}
+
+.mobile-image{
+  display: none;
+}
+
+.div1{
+  padding-top: 125px;
+  margin-top:0px;
+  margin-left: 130px;
+ }
+
+.span1{
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.arrow{
+  background-color:  hsl(0, 93%, 68%);
+  opacity: 0.89;
+  border: none;
+  padding: 9.5px 30px;
+  margin-left: -30px;
+  margin-bottom: -15px;
+  border-radius: 18px;
+  box-shadow: 5px 5px 23px hsl(0, 93%, 68%);
+}
+
+.attribution{
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-weight: 700;
+ color: rgb(45, 8, 105);
+ padding-top: 30px;
+ padding-left: 30px;
+}
+
+@media(max-width:500px){
+  p{
+    width: 355px;
+    padding-left: 50px;
+  }
+
+  .logo{
+  padding: 0px;
+  margin-top: 50px;
+  margin-left: 50px;
+  }
+
+  .desktop-image{
+    display: none;
+  }
+
+  .mobile-image{
+    display: inline-block;
+    padding: 0px;
+    margin:25px -9px;
+    width: 489px;
+    height: 300px;
+  }
+
+  .div1{
+    display: block;
+    margin-top: -99px;
+    text-align: center;
+    margin-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .arrow{
+    padding: 9.5px 20px;
+  }
+
+}
+
+@media(min-width:501px) and (max-width:600px){
+input{
+  padding: 10px 110px 10px 20px;
+}
+}
